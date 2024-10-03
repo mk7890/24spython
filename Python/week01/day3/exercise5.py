@@ -3,5 +3,5 @@
 num = int(input("Enter your number: "))
 sum = 0
 for i in range(1, num):
-    sum += sum + i
+    sum += i
 print(f"The sum of the numbers 1 to {num} is = {sum}")
