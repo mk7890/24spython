@@ -14,7 +14,7 @@ def computer():
     computerPlay = random.choice(guess)
     return computerPlay
 
-while roundsPlayed < 5:
+while roundsPlayed < 5: # compare inputs for up to 5 rounds
     print(f"Round {roundsPlayed+1}")
     player1Play = input("rock  paper  scissors: ")
     computerPlay = computer()
@@ -50,11 +50,11 @@ while roundsPlayed < 5:
     else:
         print(f"You entered an invalid choice")
         
-    if roundsPlayed == 3 and player1Points == 2 or computerPoints == 2:
+    if roundsPlayed == 2 and (player1Points == 2 or computerPoints == 2):
         break
-    elif roundsPlayed == 4 and player1Points == 3 or computerPoints == 3:
-        break
-         
+    if (player1Points-computerPoints == 2) or (computerPoints - player1Points == 2):
+        break    
+    
 if player1Points > computerPoints:
     print(f"Player 1 WINS!")
 elif computerPoints > player1Points:
