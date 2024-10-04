@@ -50,13 +50,14 @@ while roundsPlayed < 5:
     else:
         print(f"You entered an invalid choice")
         
-    if roundsPlayed == 3 and player1Points == 3 or computerPoints == 3:
+    if roundsPlayed == 3 and player1Points == 2 or computerPoints == 2:
         break
-        
+    elif roundsPlayed == 4 and player1Points == 3 or computerPoints == 3:
+        break
+         
 if player1Points > computerPoints:
     print(f"Player 1 WINS!")
 elif computerPoints > player1Points:
     print(f"Computer WINS!")
-elif computerPoints == player1Points:
+elif computerPoints == player1Points: #incase there is a draw
     print(f"Final Score DRAW!")
-    
