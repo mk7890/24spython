@@ -17,7 +17,7 @@ def areaOfCircle():
     return area
 
 print(f"This program can calculate the area of a Square, Rectangle, or Circle")
-choice = str(input("Enter s for square; r for rectangle; c for circle "))
+choice = str(input("Enter s for square; r for rectangle; c for circle:c "))
 
 if choice == 's':
     print(areaOfSquare())
