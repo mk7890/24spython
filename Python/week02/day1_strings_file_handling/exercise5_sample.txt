@@ -1,0 +1,5 @@
+Name: Moses Mugambi 
+ID NO: 9876543210
+Email: mugambimoses2@gmail.com
+Course: Data e_science
+School: Zindua School
