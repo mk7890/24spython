@@ -6,6 +6,9 @@
 # for i,j in dictionary.items():
 #     print(f"Name: {i},  Age: {j}")
 
+# dictionary methods:
+# myDictionary.get(valuePair, default_value)
+
 purse = dict()
 purse['tissue'] = 75
 purse['candy']= 3
