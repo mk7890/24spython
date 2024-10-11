@@ -12,6 +12,8 @@ students[3:5] = ['jesse', 'cyrill'] # replacing the 3rd and 4th elements in stud
 # print(students)
 
 # list methods
+# append(), remove(index, object), clear(), insert(index, object), pop(), index(object), 
+#  count(object), sort(), reverse(), copy()
 #   appending
 t = [1, 2, 3]
 t.append(4)
@@ -32,11 +34,11 @@ myList = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
 # print(myList)
 
 # print(myList)
-# del myList[1]  # using del built-in function. slicing is applicable here
+# del myList[1]  # using del built-in function. slicing is applicable here. use when a specific range is needed
 # del myList[1:3]
 # print(myList)
 
-#myList.remove('a') # using remove method
+#myList.remove('a') # using remove method -> use when you don't have index but know the element
 # print(myList)
 
 
